@@ -1,0 +1,210 @@
+/* Resets */
+hr
+{
+  margin-left: 0;
+  max-width: 40px;
+}
+/* global */
+.r_btn
+{
+  background-color:#195f19;
+  color: white;
+  border: 1px solid white;
+  width: 350px;
+  height: 150px;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  vertical-align: middle;
+}
+.r_btn:hover
+{
+  color:#001f00;
+  border: 1px solid #001f00;
+}
+
+.r_btn:focus
+{
+  color:#001f00;
+  border: 1px solid #001f00;
+  border-color: none;
+}
+
+.wrapper
+{
+  background: #004E00;
+  color: white !important;
+}
+
+.nav-item
+{
+  color: white !important;
+}
+
+/* Jumbotron (hero) */
+.jumbotron 
+{ 
+  overflow: hidden;
+  height: 200px;
+  position: relative;
+  /*background: rgba(0, 0, 0, 0);*/
+  background: url(./src/background2.jpg) no-repeat bottom center/cover;
+}
+
+.jumbotron 
+{ 
+  min-height: 90%; 
+}
+
+.jumbotron:before 
+{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron .container 
+{
+  padding: 75px 0;
+}
+
+.jumbotron h1,
+.jumbotron .lead 
+{
+  color: #fff;
+}
+
+/* Bustom button */
+.btn-primary 
+{
+  background: #195f19 !important;
+  border: 0;
+}
+
+.btn-primary:hover 
+{
+  background: #195f19;
+}
+
+/* Features */
+.sec-features .row:nth-of-type(n+2) 
+{
+  margin-top: 160px;
+}
+
+.sec-features .row:last-of-type 
+{
+  margin-bottom: 160px;
+}
+
+.sec-features .feature-icon 
+{
+  max-width: 150px;
+}
+
+/* Testimonials */
+.sec-testimonials {
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+/* Carousel */
+.carousel-indicators 
+{
+  bottom: -30px;
+}
+
+.carousel-indicators li 
+{
+  background: rgba(33, 33, 33, 0.1);
+}
+
+.carousel-indicators li:focus, .carousel-indicators li:hover 
+{
+  background: rgba(33, 33, 33, 0.5);
+}
+
+.carousel-indicators .active 
+{
+  background: rgba(33, 33, 33, 0.75);
+}
+
+.carousel-control-next,
+.carousel-control-prev 
+{
+  color: #212121;
+}
+
+.carousel-control-next:focus, .carousel-control-next:hover,
+.carousel-control-prev:focus,
+.carousel-control-prev:hover 
+{
+  color: #111;
+}
+
+/* Footer */
+.footer 
+{
+  padding-top: 24px;
+  padding-bottom: 24px;
+  /*background: #212121;*/
+}
+
+.footer li:nth-of-type(n+2) 
+{
+  margin-left: 8px;
+}
+
+.footer a 
+{
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.5);
+  -webkit-transition: color .235s ease-in-out;
+  transition: color .235s ease-in-out;
+}
+
+.footer a:focus, .footer a:hover 
+{
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.btm 
+{
+  padding-top: 5%;
+}
+
+.routes
+{
+  line-height: 0.75;
+}
+
+img
+{
+  background-color: #004E00;
+  background: #004E00;
+}
+
+#video-background { 
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+  width:100%;
+}
+
+.about-us
+{
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}

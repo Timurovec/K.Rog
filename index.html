@@ -1,0 +1,457 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="hero">
+            <header>
+                <div class="container">
+                    <nav class="navbar navbar-light navbar-toggleable-sm text-white">
+                        <img src="./src/travel_car_logo.png" style="height: 40px; padding: 3px">
+                        <a href="#" class="navbar-brand mb-0 text-white">TravelCar</a>
+
+                        <button class="navbar-toggler navbar-toggler-right text-white" type="button" data-toggle="collapse" data-target="#headerNav"
+                            aria-controls="headerNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+                        <div id="headerNav" class="collapse navbar-collapse justify-content-end text-white">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" onclick="ScrollTo('sec-routes')" zchref="#sec-routes">Маршруты</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" onclick="ScrollTo('sec-features')" zchref="#sec-features">Особенности</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" onclick="ScrollTo('sec-contact')" zchref="#sec-contact">Контакты</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" onclick="ScrollTo('sec-about')" zchref="#sec-about">O нас</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <div class="jumbotron jumbotron-fluid mb-0">
+                <div class="row justify-content-center color-white">
+                    <div class="col">
+                    </div>
+                    <div class="col-7 justify-content-center">
+                        <h2 class="text-center text-bold">
+                            Ежедневные пассажирские перевозки
+                            <br>Украина ⇔ Россия
+                        </h2>
+                    </div>
+                    <div class="col">
+                    </div>
+                </div>
+                <div class="row btm">
+                    <div class="col" style="margin-left: 25px">
+                        <!--<h4>Маршруты:</h4><br>-->
+                        <!--<p class="routes">Кривой Рог</p>
+                            <p class="routes">Днепродзержинск </p>
+                            <p class="routes">Днепропетровск </p>
+                            <p class="routes">Харьков</p>-->
+                        <h4> Маршрут проходит через города:</h4><br>
+                        <h5>
+                            <p class="routes">• Днепродзержинск, </p>
+                            <p class="routes">• Днепропетровск, </p>
+                            <p class="routes">• Новомосковск, </p>
+                            <p class="routes">• Харьков, </p>
+                        </h5>
+                        <h4>В города:</h4><br>
+                        <h5>
+                            <p class="routes">• Белгород,</p>
+                            <p class="routes">• Курск,</p>
+                            <p class="routes">• Орёл,</p>
+                            <p class="routes">• Тула.</p>
+                        </h5>
+                    </div>
+                    <div class="col text-right" style="margin-right: 25px">
+                        Бронирование мест по телефонам<br> в Москву:<br> ‎
+                        <h5>+38(097)156-96-45
+                            <br> ‎+38(066)604-00-81 <br>
+                        </h5> из Москвы: <br>
+                        <h5> ‎+7(968)33-99-120 <br> ‎+7(968)880-35-30</h5>
+                        <br>Оставьте нам заявку<br>
+                        <br>
+                        <a class="btn btn-primary btn-lg" href="#sec-contact" role="button">Мы вам перезвоним</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ROUTES SECTION -->
+        <section id="sec-routes" class="sec-pricing">
+            <div class="container">
+                <h1 class="h4 mb-5 text-center"><br>Наши маршруты</h1>
+                <div class="row justify-content-center">
+                    <a class="btn r_btn" data-toggle="modal" href="#myModal1">
+                        <br><br>
+                        Днепродзержинск ⇔ Москва <br>
+                        1100грн / 3200руб
+                    </a>
+                    <div class="modal hide" id="myModal1" style="padding-top: 15px">
+                        <div class="modal-header" style="background:#002f24 !important">
+                            <button class="close" data-dismiss="modal">×</button>
+                            <h3>Ежедневные рейсы Днепродзержинск - Москва / Москва - Днепродзержинск</h3>
+                        </div>
+                        <div class="modal-body" style="background:#002f24 !important">
+                            <div class="row">
+                                <div class="col">
+                                    <img src="./src/dzerzh-mos.jpg" style="width: 640px" />
+                                </div>
+                                <div class="col">
+                                    <p>
+                                        Ежедневные рейсы Днепродзержинск - Москва / Москва - Днепродзержинск</p>
+                                    <p>
+                                        <h4>
+                                            Цена: 1100 гривен
+                                        </h4>
+                                        Отправление ежедневно 14:00-16:00<br> Посадка пассажиров осуществляется от ЖД вокзала.<br>                                        Время в пути 15-16 часов.<br> Время в пути до таможни 4 часа, прохождение таможенного
+                                        контроля около 1,5-2 часа и время в пути до Москвы 8-9 часов.<br> Прибытие в Москву
+                                        в 7-9 утра.<br> Высадка пассажиров осуществляется возле станции метро Аннино. Воспользовавшись
+                                        метрополитеном Вы сможете добраться в любую точку Москвы.
+                                    </p>
+                                    <p>
+                                        Ежедневные рейсы Москва - Кривой Рог.
+                                    </p>
+                                    <p>
+                                        <h4>
+                                            Цена: 3200 рублей
+                                        </h4>
+                                        Отправление ежедневно 17:00-19:00 <br> Посадка пассажиров осуществляется от станции
+                                        метро Аннино, ТЦ "Атлантис".<br> Прибытие в Днепродзержинск в 7-9 утра.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer" style="background:#002f24 !important">
+                            <a href="#" class="btn r_btn" data-dismiss="modal">Закрыть</a>
+                        </div>
+                    </div>​
+                    <a class="btn r_btn" data-toggle="modal" href="#myModal2">
+                        <br><br>
+                        Кривой Рог ⇔ Москва <br>
+                        1300грн / 3500руб
+                    </a>
+                    <div class="modal hide" id="myModal2" style="padding-top: 15px">
+                        <div class="modal-header" style="background:#002f24 !important">
+                            <button class="close" data-dismiss="modal">×</button>
+                            <h3>Ежедневные рейсы Кривой Рог - Москва / Москва - Кривой Рог</h3>
+                        </div>
+                        <div class="modal-body" style="background:#002f24 !important">
+                            <div class="row">
+                                <div class="col">
+                                    <img src="./src/krog-mos.jpg" />
+                                </div>
+                                <div class="col">
+
+                                    <p>
+                                        Ежедневные рейсы Кривой Рог - Москва.</p>
+                                    <p>
+                                        <h4>
+                                            Цена: 1300 гривен
+                                        </h4>
+                                        Отправление ежедневно 12:00-14:00<br> Посадка пассажиров осуществляется от СЕВГОКа
+                                        до ЮГОКа (по красной линии).<br> Время в пути 16-18 часов.<br> Время в пути до таможни
+                                        6 часов, прохождение таможенного контроля около 1,5-2 часа и время в пути до Москвы
+                                        8-9 часов. Прибытие в Москву в 7-9 утра.<br> Высадка пассажиров осуществляется возле
+                                        станции метро Аннино.<br> Воспользовавшись метрополитеном Вы сможете добраться в
+                                        любую точку Москвы.
+                                    </p>
+                                    <p>
+                                        Ежедневные рейсы Москва - Кривой Рог.
+                                    </p>
+                                    <p>
+                                        <h4>
+                                            Цена: 3500 рублей
+                                        </h4>
+                                        Отправление ежедневно 17:00-19:00. <br> Посадка пассажиров осуществляется от станции
+                                        метро Аннино, ТЦ "Атлантис".<br> Прибытие в Кривой Рог в 9-11 утра.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer" style="background:#002f24 !important">
+                            <a href="#" class="btn r_btn" data-dismiss="modal">Закрыть</a>
+                        </div>
+                    </div>​
+                </div>
+                <div class="row justify-content-center">
+                    <a class="btn r_btn" data-toggle="modal" href="#myModal3">
+                        <br><br>
+                        Днепропетровск ⇔ Москва <br>
+                        1000грн / 3000руб
+                    </a>
+                    <div class="modal hide" id="myModal3" style="padding-top: 15px">
+                        <div class="modal-header" style="background:#002f24 !important">
+                            <button class="close" data-dismiss="modal">×</button>
+                            <h3>Ежедневные рейсы Днепропетровск - Москва / Москва - Днепропетровск</h3>
+                        </div>
+                        <div class="modal-body" style="background:#002f24 !important">
+                            <div class="row">
+                                <div class="col">
+                                    <img src="./src/dnep-mos.jpg" />
+                                </div>
+                                <div class="col">
+
+                                    <p>
+                                        Ежедневные рейсы Днепропетровск - Москва.</p>
+                                    <p>
+                                        <h4>
+                                            Цена: 1000 гривен
+                                        </h4>
+                                        Отправление ежедневно 15:00-17:00 <br> Посадка пассажиров осуществляется от автовокзала.<br>                                        Время в пути 14-15 часов.<br> Время в пути до таможни 3 часа, прохождение таможенного
+                                        контроля около 1,5-2 часа и время в пути до Москвы 8-9 часов.<br> Прибытие в Москву
+                                        в 7-9 утра.<br> Высадка пассажиров осуществляется возле станции метро Аннино.<br>                                        Воспользовавшись метрополитеном Вы сможете добраться в любую точку Москвы.
+                                    </p>
+                                    <p>
+                                        Ежедневные рейсы Москва - Днепропетровск.
+                                    </p>
+                                    <p>
+                                        <h4>
+                                            Цена: 3000 рублей
+                                        </h4>
+                                        Отправление ежедневно 17:00-19:00 <br> Посадка пассажиров осуществляется от станции
+                                        метро Аннино, ТЦ "Атлантис".<br> Прибытие в Днепропетровск в 6-8 утра.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer" style="background:#002f24 !important">
+                            <a href="#" class="btn r_btn" data-dismiss="modal">Закрыть</a>
+                        </div>
+                    </div>​
+
+                    <a class="btn r_btn" data-toggle="modal" href="#myModal4">
+                        <br><br>
+                        Харьков ⇔ Москва <br>
+                        900грн / 2000руб
+                    </a>
+                    <div class="modal hide" id="myModal4" style="padding-top: 15px">
+                        <div class="modal-header" style="background:#002f24 !important">
+                            <button class="close" data-dismiss="modal">×</button>
+                            <h3>Ежедневные рейсы Харьков - Москва / Москва - Харьков</h3>
+                        </div>
+                        <div class="modal-body" style="background:#002f24 !important">
+                            <div class="row">
+                                <div class="col">
+                                    <img src="./src/kh-mos.jpg" />
+                                </div>
+                                <div class="col">
+
+                                    <p>
+                                        Ежедневные рейсы Харьков - Москва.</p>
+                                    <p>
+                                        <h4>
+                                            Цена: 900 гривен
+                                        </h4>
+                                        Отправление ежедневно 18:00-20:00 <br> осадка пассажиров осуществляется от м. Холодная
+                                        гора или от ЮЖД вокзала.<br> Время в пути 11-13 часов.<br> Время в пути до таможни
+                                        30 минут, прохождение таможенного контроля около 1,5-2 часа и время в пути до Москвы
+                                        8-9 часов.<br> Прибытие в Москву в 7-9 утра.<br> Высадка пассажиров осуществляется
+                                        возле станции метро Аннино.
+                                        <br> Воспользовавшись метрополитеном Вы сможете добраться в любую точку Москвы.
+                                    </p>
+                                    <p>
+                                        Ежедневные рейсы Москва - Днепропетровск.
+                                    </p>
+                                    <p>
+                                        <h4>
+                                            Цена: 2000 рублей
+                                        </h4>
+                                        Отправление ежедневно 17:00-19:00 <br> Посадка пассажиров осуществляется от станции
+                                        метро Аннино, ТЦ "Атлантис". Прибытие в Харьков в 4-5 утра.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer" style="background:#002f24 !important">
+                            <a href="#" class="btn r_btn" data-dismiss="modal">Закрыть</a>
+                        </div>
+                    </div>​
+                </div>
+                <br><br><br>
+                <div class="text-center">
+                    Так же мы осуществляем доставку бригад рабочих и вахт непосредственно к месту и с места работы.<br> Индивидуальный
+                    подход, индивидуальная цена.<br><br>
+                    <img src="./src/workers.jpg" />
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <!-- FEATURES SECTION -->
+        <section id="sec-features" class="sec-features">
+            <h4 class="text-center">Наши особенности</h4>
+            <br>
+            <br>
+            <div class="row justify-content-center">
+                <div class="col text-center">
+                    <p>
+                        <img src="./src/free_wifi.jpg" alt="Бесплатный Wi-Fi" height="75px" width="75px">
+                    </p>
+                    <p>
+                        <h5>Бесплатный Wi-Fi</h5>
+                    </p>
+                </div>
+                <div class="col text-center">
+                    <p>
+                        <img src="./src/heater.jpg" alt="Обогрев салона" height="75px" width="75px">
+                    </p>
+                    <p>
+                        <h5>Обогрев салона</h5>
+                    </p>
+                </div>
+                <div class="col text-center">
+                    <p>
+                        <img src="./src/cooler.jpg" alt="Кондиционер" height="75px" width="75px">
+                    </p>
+                    <p>
+                        <h5>Кондиционер</h5>
+                    </p>
+                </div>
+                <div class="col text-center">
+                    <p>
+                        <img src="./src/video.png" alt="Телевизор" height="75px" width="75px">
+                    </p>
+                    <p>
+                        <h5>Телевизор</h5>
+                    </p>
+                </div>
+            </div>
+            <div class="text-center about-us">
+                <p>
+                    <h2>ПОЧЕМУ ВЫБИРАЮТ ИМЕННО НАС?</h2>
+                </p>
+                <h3>Надёжно и безопасно.</h3><br> У нас только надежные машины и водители профессионалы. Их многолетний опыт
+                вождения позволит Вам добраться к месту назначения безопасно, надежно и быстро.
+                <br><br>
+                <h3>Удобство и комфорт.</h3><br> Ухоженный салон, мягкие раскладные сидения, кондиционер, телевизор и Wi-Fi обеспечат
+                комфорт Вашей поездки. Она будет лёгкой и время в пути пролетит незаметно.
+                <br><br>
+                <h3>Быстро и доступно.</h3><br> Наши микроавтобусы станут для Вас не только самым удобным и быстрым способом
+                передвижения, но ещё и самым доступным экономя Ваши время и деньги.<br>
+            </div>
+            <div class="text-center">
+                <h1>Выбирая нас, Вы получаете лучший сервис.</h1>
+            </div>
+        </section>
+        <!-- CONTACT SECTION -->
+        <section id="sec-contact" class="sec-contact pt-5 pb-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-10 col-lg-7">
+                        <h1 class="h4">Для более детальной информации звоните нам на следующие номера:</h1>
+                        <p class="text-left">
+                            в Москву:
+                            <br> ‎+38(097)156-96-45
+                            <br> ‎+38(066)604-00-81
+                            <br> из Москвы:
+                            <br> ‎+7(968)33-99-120
+                            <br> ‎+7(968)880-35-30
+                            <br> Или свяжитесь с нами через электронную почту </p>
+                        <form action="https://formspree.io/themaulmartin@gmail.com" method="POST">
+                            <div class="form-group">
+                                <!--<label for="reply_to">Ваша электронная почта:</label>-->
+                                <input type="email" class="form-control" name="Обратный адрес" placeholder="Электронная почта" id="reply_to" />
+                            </div>
+                            <div class="form-group">
+                            </div>
+                            <div class="form-group">
+                                <!--<label for="extra_phone_number">Ваш номер телефона:</label>-->
+                                <input type="text" class="form-control" name="Номер телефона" placeholder="Номер телефона" id="extra_phone_number" />
+                            </div>
+                            <div class="form-group">
+                                <!--<label for="message">Текст сообщения:</label>-->
+                                <textarea name="Сообщение" class="form-control" placeholder="Сообщение" rows="4"></textarea>
+                            </div>
+                            <input id="submit_form" class="btn btn-default" type="submit" value="Отправить" />
+                        </form>
+                        <script>
+                            var submitButton = document.getElementById("submit_form");
+                            var form = document.getElementById("email_form");
+                            form.addEventListener("submit", function (e) {
+                                setTimeout(function () {
+                                    submitButton.value = "Sending...";
+                                    submitButton.disabled = true;
+                                }, 1);
+                            });
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                Убедительная просьба, бронировать места только при 100% готовности к поездке, так как количество мест ограничено.<br>                В случае если у Вас изменились планы - сообщите нам заблаговременно и мы перенесем Вашу поездку на удобную
+                для Вас дату.<br>
+            </div>
+        </section>
+        <section id="sec-about" class="sec-about pt-5 pb-5">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <h1 class="h4">О нас</h1><br><br><br>
+                    <div class="row">
+                        <div class="col">
+                            <img src="./src/about_us_img.jpg" style="width: 450px; padding-top: 15px">
+                        </div>
+                        <div class="col" style="text-align: left">
+                            Travel Car - ежедневные пассажирские перевозки<br> Поездки осуществляются комфортабельными 8-ми
+                            местными микроавтобусами Mercedes Sprinter и Mercedes Vito.<br> Наши микроавтобусы станут для
+                            Вас не только доступным, но ещё и самым удобным и быстрым способом передвижения экономя Ваши
+                            время, силы и деньги.<br><br>
+                            <p><b>Команда наших водителей- профессионалы высшей квалификации</b></p>
+                            Всегда полноценно отдыхают, соблюдая режим труда и отдыха. <br> Вежливы и аккуратны, без вредных
+                            привычек. <br> Их многолетний опыт вождения позволит Вам добраться к месту назначения безопасно,
+                            надежно и быстро.<br>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="text-center">
+                        <p><b>Автомобили оборудованы для дальних поездок, в салоне есть все для Вашего комфорта:</b></p>
+                    </div>
+                    <div class='text-left'>
+                        <li>
+                        удобные сидения разлаживаются полулёжа;
+                        </li>
+                        <li>
+                        мягкая подушка на каждом подголовнике ;
+                        </li>
+                        <li>
+                        бесплатный Wi-Fi;
+                        </li>
+                        <li>
+                        телевизор;
+                        </li>
+                        <li>
+                        кондиционер;
+                        </li>
+                        <li>
+                        автономное отопление;
+                        </li>
+                        <li>
+                        вместительный багажник;
+                        </li>
+                        <li>
+                        всегда чистый и ухоженный салон.
+                        </li>
+                    </div>
+                    Ваша поездка будет лёгкой и время в пути пролетит незаметно.
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
