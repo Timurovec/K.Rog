@@ -213,6 +213,17 @@ footer
   background-color: #4BA227;
 }
 
+.ajg-logo
+{
+  height: 25px;
+}
+
+.footer-content
+{
+  padding-top:  10px;
+  margin-bottom: 0px;
+}
+
 .footer a:focus, .footer a:hover 
 {
   color: rgba(255, 255, 255, 0);
