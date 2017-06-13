@@ -1,22 +1,10 @@
-$(() => {
-  $('a[href*="#"]:not([href="#"])').click((e) => {
-    const target = $(e.target.hash);
-
-    if (target.length) {
-      $('html, body').animate({
-        scrollTop: target.offset().top
-      }, 1000);
-
-      return false;
-    }
-  });
-});
-
 $('#myModal').on('shown.bs.modal', function () {
   $('#myInput').focus()
 })
 
 $('#popup').modal();
+
+
 
 function ScrollTo(name) {
   ScrollToResolver(document.getElementById(name));
@@ -33,3 +21,14 @@ function ScrollToResolver(elem) {
     elem.lastjump = null;
   }
 }
+
+
+$('a[href^="#"]').click(function(){
+
+var the_id = $(this).attr("href");
+
+    $('html, body').animate({
+        scrollTop:$(the_id).offset().top
+    }, 'slow');
+
+return false;});

@@ -7,7 +7,7 @@ hr
 /* global */
 .r_btn
 {
-  background-color:#195f19;
+  background-color: #4BA227;
   color: white;
   border: 1px solid white;
   width: 350px;
@@ -17,26 +17,42 @@ hr
   text-align: center;
   vertical-align: middle;
 }
+
 .r_btn:hover
 {
-  color:#001f00;
-  border: 1px solid #001f00;
+  color: #D4FE00;
+  border: none;
+  background: #195f19 !important;
+  border-color: none;
 }
 
 .r_btn:focus
 {
-  color:#001f00;
-  border: 1px solid #001f00;
-  border-color: none;
+  color: #D4FE00;
+  border: none;
+  background: #195f19 !important;
+}
+
+
+
+header
+{
+  background-color: #4BA227 !important ;
+  color: white !important;
 }
 
 .wrapper
 {
-  background: #004E00;
-  color: white !important;
+  background: white;
+  color: black !important;
 }
 
-.nav-item
+.nav-link:hover
+{
+  color: #D4FE00 !important;
+}
+
+.nav-link
 {
   color: white !important;
 }
@@ -44,6 +60,7 @@ hr
 /* Jumbotron (hero) */
 .jumbotron 
 { 
+  color: white;
   overflow: hidden;
   height: 200px;
   position: relative;
@@ -79,16 +96,47 @@ hr
 }
 
 /* Bustom button */
-.btn-primary 
+.btn-lg 
+{
+  background: #4BA227 !important;
+  color: white;
+  border: none;
+}
+
+.btn-lg:hover 
 {
   background: #195f19 !important;
+  color: #D4FE00;
+  border: none;
+}
+
+
+.btn-default 
+{
+  background: #4BA227 !important;
+  color: white;
+  border: none;
+}
+
+.btn-default:hover 
+{
+  background: #195f19 !important;
+  color: #D4FE00;
+  border: none;
+}
+
+.btn-primary 
+{
+  background: #4BA227 !important;
   border: 0;
 }
 
 .btn-primary:hover 
 {
-  background: #195f19;
+  background: #195f19 !important;
+  color: #D4FE00;
 }
+
 
 /* Features */
 .sec-features .row:nth-of-type(n+2) 
@@ -159,17 +207,15 @@ hr
   margin-left: 8px;
 }
 
-.footer a 
+footer
 {
-  font-size: 18px;
-  color: rgba(255, 255, 255, 0.5);
-  -webkit-transition: color .235s ease-in-out;
-  transition: color .235s ease-in-out;
+  height: 45px;
+  background-color: #4BA227;
 }
 
 .footer a:focus, .footer a:hover 
 {
-  color: rgba(255, 255, 255, 0.25);
+  color: rgba(255, 255, 255, 0);
 }
 
 .btm 
@@ -184,8 +230,8 @@ hr
 
 img
 {
-  background-color: #004E00;
-  background: #004E00;
+  background-color: none;
+  background: none;
 }
 
 #video-background { 
@@ -207,4 +253,64 @@ img
   margin-right: 10%;
   margin-top: 25px;
   margin-bottom: 25px;
+}
+
+.modal_button
+{
+  height: 100px;
+  width: 300px;
+}
+
+.sec-contact
+{
+  background-color: #4BA227;
+}
+
+#submit_form
+{
+  background-color: #D4FE00 !important;
+  color: black !important;
+}
+
+#submit_form:hover
+{
+  background-color: #195f19 !important;
+  color: white !important;
+}
+
+.modal-body
+{
+  color: white;
+  background-color: #4BA227 !important
+}
+
+.modal-header
+{
+  color: white;
+  background-color: #4BA227 !important
+}
+
+.modal-footer
+{
+  color: white;
+  background-color: #4BA227 !important
+}
+
+.dismiss_btn
+{
+  height: 35px !important;
+  background-color: #D4FE00 !important;
+  color: black !important;
+  border: none;
+}
+
+.dismiss_btn:hover
+{
+  background-color: #195f19 !important;
+  color: white !important;
+  border: none;
+}
+.sec-contact
+{
+  color: white !important;
 }
