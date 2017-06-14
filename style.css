@@ -18,6 +18,12 @@ hr
   vertical-align: middle;
 }
 
+.green-panel
+{
+    color: white;
+    background: #4BA227 !important;
+}
+
 .r_btn:hover
 {
   color: #D4FE00;
@@ -58,8 +64,8 @@ header
 }
 
 /* Jumbotron (hero) */
-.jumbotron 
-{ 
+.jumbotron
+{
   color: white;
   overflow: hidden;
   height: 200px;
@@ -68,12 +74,12 @@ header
   background: url(./src/background2.jpg) no-repeat bottom center/cover;
 }
 
-.jumbotron 
-{ 
-  min-height: 90%; 
+.jumbotron
+{
+  min-height: 90%;
 }
 
-.jumbotron:before 
+.jumbotron:before
 {
   position: absolute;
   content: '';
@@ -84,26 +90,26 @@ header
   background: rgba(0, 0, 0, 0.5);
 }
 
-.jumbotron .container 
+.jumbotron .container
 {
   padding: 75px 0;
 }
 
 .jumbotron h1,
-.jumbotron .lead 
+.jumbotron .lead
 {
   color: #fff;
 }
 
 /* Bustom button */
-.btn-lg 
+.btn-lg
 {
   background: #4BA227 !important;
   color: white;
   border: none;
 }
 
-.btn-lg:hover 
+.btn-lg:hover
 {
   background: #195f19 !important;
   color: #D4FE00;
@@ -111,27 +117,27 @@ header
 }
 
 
-.btn-default 
+.btn-default
 {
   background: #4BA227 !important;
   color: white;
   border: none;
 }
 
-.btn-default:hover 
+.btn-default:hover
 {
   background: #195f19 !important;
   color: #D4FE00;
   border: none;
 }
 
-.btn-primary 
+.btn-primary
 {
   background: #4BA227 !important;
   border: 0;
 }
 
-.btn-primary:hover 
+.btn-primary:hover
 {
   background: #195f19 !important;
   color: #D4FE00;
@@ -139,17 +145,17 @@ header
 
 
 /* Features */
-.sec-features .row:nth-of-type(n+2) 
+.sec-features .row:nth-of-type(n+2)
 {
   margin-top: 160px;
 }
 
-.sec-features .row:last-of-type 
+.sec-features .row:last-of-type
 {
   margin-bottom: 160px;
 }
 
-.sec-features .feature-icon 
+.sec-features .feature-icon
 {
   max-width: 150px;
 }
@@ -161,48 +167,48 @@ header
 }
 
 /* Carousel */
-.carousel-indicators 
+.carousel-indicators
 {
   bottom: -30px;
 }
 
-.carousel-indicators li 
+.carousel-indicators li
 {
   background: rgba(33, 33, 33, 0.1);
 }
 
-.carousel-indicators li:focus, .carousel-indicators li:hover 
+.carousel-indicators li:focus, .carousel-indicators li:hover
 {
   background: rgba(33, 33, 33, 0.5);
 }
 
-.carousel-indicators .active 
+.carousel-indicators .active
 {
   background: rgba(33, 33, 33, 0.75);
 }
 
 .carousel-control-next,
-.carousel-control-prev 
+.carousel-control-prev
 {
   color: #212121;
 }
 
 .carousel-control-next:focus, .carousel-control-next:hover,
 .carousel-control-prev:focus,
-.carousel-control-prev:hover 
+.carousel-control-prev:hover
 {
   color: #111;
 }
 
 /* Footer */
-.footer 
+.footer
 {
   padding-top: 24px;
   padding-bottom: 24px;
   /*background: #212121;*/
 }
 
-.footer li:nth-of-type(n+2) 
+.footer li:nth-of-type(n+2)
 {
   margin-left: 8px;
 }
@@ -224,12 +230,12 @@ footer
   margin-bottom: 0px;
 }
 
-.footer a:focus, .footer a:hover 
+.footer a:focus, .footer a:hover
 {
   color: rgba(255, 255, 255, 0);
 }
 
-.btm 
+.btm
 {
   padding-top: 5%;
 }
@@ -245,7 +251,7 @@ img
   background: none;
 }
 
-#video-background { 
+#video-background {
   position: fixed;
   top: 0;
   right: 0;
