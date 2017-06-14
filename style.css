@@ -1,10 +1,9 @@
-/* Resets */
+/* !important - зло */
 hr
 {
   margin-left: 0;
   max-width: 40px;
 }
-/* global */
 .r_btn
 {
   background-color: #4BA227;
@@ -63,7 +62,6 @@ header
   color: white !important;
 }
 
-/* Jumbotron (hero) */
 .jumbotron
 {
   color: white;
@@ -71,7 +69,7 @@ header
   height: 200px;
   position: relative;
   /*background: rgba(0, 0, 0, 0);*/
-  background: url(./src/background2.jpg) no-repeat bottom center/cover;
+  background: url(./src/background1.jpg) no-repeat bottom center/cover;
 }
 
 .jumbotron
@@ -101,7 +99,6 @@ header
   color: #fff;
 }
 
-/* Bustom button */
 .btn-lg
 {
   background: #4BA227 !important;
@@ -143,8 +140,6 @@ header
   color: #D4FE00;
 }
 
-
-/* Features */
 .sec-features .row:nth-of-type(n+2)
 {
   margin-top: 160px;
@@ -160,13 +155,11 @@ header
   max-width: 150px;
 }
 
-/* Testimonials */
 .sec-testimonials {
   padding-top: 128px;
   padding-bottom: 128px;
 }
 
-/* Carousel */
 .carousel-indicators
 {
   bottom: -30px;
@@ -200,7 +193,6 @@ header
   color: #111;
 }
 
-/* Footer */
 .footer
 {
   padding-top: 24px;
@@ -219,10 +211,6 @@ footer
   background-color: #4BA227;
 }
 
-.ajg-logo
-{
-  height: 25px;
-}
 
 .footer-content
 {
@@ -327,7 +315,13 @@ img
   color: white !important;
   border: none;
 }
+
 .sec-contact
 {
   color: white !important;
+}
+
+.ajg-logo
+{
+  height: 25px;
 }
