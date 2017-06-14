@@ -19,8 +19,8 @@ hr
 
 .green-panel
 {
-    color: white;
-    background: #4BA227 !important;
+  color: white;
+  background: #4BA227 !important;
 }
 
 .r_btn:hover
@@ -266,11 +266,6 @@ img
   width: 300px;
 }
 
-.sec-contact
-{
-  background-color: #4BA227;
-}
-
 #submit_form
 {
   background-color: #D4FE00 !important;
@@ -316,12 +311,44 @@ img
   border: none;
 }
 
-.sec-contact
+.sec-about
 {
   color: white !important;
+  background-color: #4BA227 !important;
 }
 
 .ajg-logo
 {
   height: 25px;
+}
+
+#builders
+{
+  color: #000000 ;
+  background: url(./src/workers.jpg) !important;
+}
+
+#builders:hover
+{
+  border: 2px solid #4BA227;
+  color: #4BA227;
+  background: url(./src/workers.jpg) !important;
+}
+
+.text-big
+{
+  font-size: 255%;
+}
+
+.text-black
+{
+  color: #000000;
+}
+
+.important-sec
+{
+  border: 3px solid #D4FE00;
+  margin: 0px 120px 0px 120px;
+  padding: 15px;
+  background-color: #4BA227;
 }
