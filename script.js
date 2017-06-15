@@ -23,12 +23,13 @@ function ScrollToResolver(elem) {
 }
 
 
-$('a[href^="#"]').click(function(){
+$(window).scroll(function() {
+    var winScrollTop = $(window).scrollTop();
+    var winHeight = $(window).height();
+    var floaterHeight = $('#floater').outerHeight(true);
+    //true so the function takes margins into account
+    var fromBottom = 20;
 
-var the_id = $(this).attr("href");
-
-    $('html, body').animate({
-        scrollTop:$(the_id).offset().top
-    }, 'slow');
-
-return false;});
+    var top = winScrollTop + winHeight - floaterHeight - fromBottom;
+    $('#floater').css({'top': top + 'px'});
+});

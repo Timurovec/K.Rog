@@ -347,8 +347,17 @@ img
 
 .important-sec
 {
-  border: 3px solid #D4FE00;
+  border: 3px solid #195f19;
   margin: 0px 120px 0px 120px;
   padding: 15px;
   background-color: #4BA227;
+}
+
+#floater {
+    position: absolute;
+    top: 100px;
+    right: 1px;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    z-index: 0;
 }
