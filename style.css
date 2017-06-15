@@ -353,11 +353,11 @@ img
   background-color: #4BA227;
 }
 
-#floater {
+/*#floater {
     position: absolute;
     top: 100px;
     right: 1px;
     -webkit-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
     z-index: 0;
-}
+}*/
