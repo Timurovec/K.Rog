@@ -6,7 +6,7 @@ hr
 }
 .r_btn
 {
-  background-color: #4BA227;
+  background-color: #3f27a1;
   color: white;
   border: 1px solid white;
   width: 350px;
@@ -20,29 +20,29 @@ hr
 .green-panel
 {
   color: white;
-  background: #4BA227 !important;
+  background: #3f27a1 !important;
 }
 
 .r_btn:hover
 {
-  color: #D4FE00;
+  color: #a02626;
   border: none;
-  background: #195f19 !important;
+  background: #26a0a0 !important;
   border-color: none;
 }
 
 .r_btn:focus
 {
-  color: #D4FE00;
+  color: #a02626;
   border: none;
-  background: #195f19 !important;
+  background: #26a0a0 !important;
 }
 
 
 
 header
 {
-  background-color: #4BA227 !important ;
+  background-color: #3f27a1 !important ;
   color: white !important;
 }
 
@@ -54,7 +54,7 @@ header
 
 .nav-link:hover
 {
-  color: #D4FE00 !important;
+  color: #a02626 !important;
 }
 
 .nav-link
@@ -101,43 +101,43 @@ header
 
 .btn-lg
 {
-  background: #4BA227 !important;
+  background: #3f27a1 !important;
   color: white;
   border: none;
 }
 
 .btn-lg:hover
 {
-  background: #195f19 !important;
-  color: #D4FE00;
+  background: #26a0a0 !important;
+  color: #a02626;
   border: none;
 }
 
 
 .btn-default
 {
-  background: #4BA227 !important;
+  background: #3f27a1 !important;
   color: white;
   border: none;
 }
 
 .btn-default:hover
 {
-  background: #195f19 !important;
-  color: #D4FE00;
+  background: #26a0a0 !important;
+  color: #a02626;
   border: none;
 }
 
 .btn-primary
 {
-  background: #4BA227 !important;
+  background: #3f27a1 !important;
   border: 0;
 }
 
 .btn-primary:hover
 {
-  background: #195f19 !important;
-  color: #D4FE00;
+  background: #26a0a0 !important;
+  color: #a02626;
 }
 
 .sec-features .row:nth-of-type(n+2)
@@ -208,7 +208,7 @@ header
 footer
 {
   height: 45px;
-  background-color: #4BA227;
+  background-color: #3f27a1;
 }
 
 
@@ -268,45 +268,45 @@ img
 
 #submit_form
 {
-  background-color: #D4FE00 !important;
+  background-color: #a02626 !important;
   color: black !important;
 }
 
 #submit_form:hover
 {
-  background-color: #195f19 !important;
+  background-color: #26a0a0 !important;
   color: white !important;
 }
 
 .modal-body
 {
   color: white;
-  background-color: #4BA227 !important
+  background-color: #3f27a1 !important
 }
 
 .modal-header
 {
   color: white;
-  background-color: #4BA227 !important
+  background-color: #3f27a1 !important
 }
 
 .modal-footer
 {
   color: white;
-  background-color: #4BA227 !important
+  background-color: #3f27a1 !important
 }
 
 .dismiss_btn
 {
   height: 35px !important;
-  background-color: #D4FE00 !important;
+  background-color: #a02626 !important;
   color: black !important;
   border: none;
 }
 
 .dismiss_btn:hover
 {
-  background-color: #195f19 !important;
+  background-color: #26a0a0 !important;
   color: white !important;
   border: none;
 }
@@ -314,7 +314,7 @@ img
 .sec-about
 {
   color: white !important;
-  background-color: #4BA227 !important;
+  background-color: #3f27a1 !important;
 }
 
 .ajg-logo
@@ -330,8 +330,8 @@ img
 
 #builders:hover
 {
-  border: 2px solid #4BA227;
-  color: #4BA227;
+  border: 2px solid #3f27a1;
+  color: #3f27a1;
   background: url(./src/workers.jpg) !important;
 }
 
@@ -347,10 +347,11 @@ img
 
 .important-sec
 {
-  border: 3px solid #195f19;
+  border: 3px solid #26a0a0;
   margin: 0px 120px 0px 120px;
   padding: 15px;
-  background-color: #4BA227;
+  background-color: #3f27a1;
+  color: white;
 }
 
 /*#floater {
